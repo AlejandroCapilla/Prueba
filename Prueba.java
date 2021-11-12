@@ -8,5 +8,12 @@ public class Prueba {
 
     private void imprimir() {
         System.out.println("Hola mundo");
+        metodoIterativo();
+    }
+
+    private void metodoIterativo() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Hola mundo "+i);
+        }
     }
 }
